@@ -11,7 +11,17 @@ public class CollisionPainter : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        GameObject abc;
         HandleCollision(collision);
+        if(collision.gameObject.tag == "wall")
+        {
+            
+            collision.transform.GetComponent<Cube>().Explosion();
+            
+            //GameObject deb = collision.transform.GetComponentInChildren<Cube>().gameObject;
+            //Destroy(deb, 3f);
+            
+        }
     }
 
     private void OnCollisionStay(Collision collision)
