@@ -86,6 +86,7 @@
     <Compile Include="Assets\Script\GameMgr.cs" />
     <Compile Include="Assets\Script\mingyujoystick.cs" />
     <Compile Include="Assets\Script\SceneChange.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
